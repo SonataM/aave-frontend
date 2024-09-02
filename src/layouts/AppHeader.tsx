@@ -222,7 +222,7 @@ export function AppHeader() {
           }}
           onClick={() => setMobileMenuOpen(false)}
         >
-          <img src={uiConfig.appLogo} alt="AAVE" width={72} height={20} />
+          <img src={uiConfig.appLogo} alt="AAVE" width={110} height={20} />
         </Box>
         <Box sx={{ mr: sm ? 1 : 3 }}>
           {ENABLE_TESTNET && (
@@ -271,7 +271,7 @@ export function AppHeader() {
 
         <Box sx={{ flexGrow: 1 }} />
 
-        <NoSsr>
+        {/* <NoSsr>
           <StyledBadge
             invisible={visitedSwitch}
             variant="dot"
@@ -294,7 +294,7 @@ export function AppHeader() {
               </SvgIcon>
             </Button>
           </StyledBadge>
-        </NoSsr>
+        </NoSsr> */}
 
         <NoSsr>
           <StyledBadge

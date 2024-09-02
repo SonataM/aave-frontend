@@ -240,14 +240,14 @@ export const MarketSwitcher = () => {
         },
       }}
     >
-      <Box>
+      {/* <Box>
         <Typography variant="subheader2" color="text.secondary" sx={{ px: 4, pt: 2 }}>
           <Trans>
-            {ENABLE_TESTNET || STAGING_ENV ? 'Select Aave Testnet Market' : 'Select Aave Market'}
+            {ENABLE_TESTNET || STAGING_ENV ? 'Select Aqualoan Testnet Market' : 'Select Aqualoan Market'}
           </Trans>
         </Typography>
-      </Box>
-      {isV3MarketsAvailable && (
+      </Box> */}
+      {/* {isV3MarketsAvailable && (
         <Box sx={{ mx: '18px', display: 'flex', justifyContent: 'center' }}>
           <StyledToggleButtonGroup
             value={selectedMarketVersion}
@@ -330,7 +330,7 @@ export const MarketSwitcher = () => {
             </StyledToggleButton>
           </StyledToggleButtonGroup>
         </Box>
-      )}
+      )} */}
       {availableMarkets
         .filter((marketId: CustomMarket) => {
           const { market } = getMarketInfoById(marketId);

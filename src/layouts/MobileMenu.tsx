@@ -76,8 +76,8 @@ export const MobileMenu = ({ open, setOpen, headerHeight }: MobileMenuProps) => 
             <MenuItemsWrapper title={<Trans>Global settings</Trans>}>
               <List>
                 <DarkModeSwitcher />
-                {PROD_ENV && <TestNetModeSwitcher />}
-                <LanguageListItem onClick={() => setIsLanguagesListOpen(true)} />
+                {/* {PROD_ENV && <TestNetModeSwitcher />} */}
+                {/* <LanguageListItem onClick={() => setIsLanguagesListOpen(true)} /> */}
               </List>
             </MenuItemsWrapper>
             <MenuItemsWrapper title={<Trans>Links</Trans>}>
@@ -89,7 +89,7 @@ export const MobileMenu = ({ open, setOpen, headerHeight }: MobileMenuProps) => 
                   onClick={() => setOpen(false)}
                 >
                   <ListItemText>
-                    <Trans>Migrate to Aave V3</Trans>
+                    <Trans>Migrate to Aqualoan V3</Trans>
                   </ListItemText>
                 </ListItem>
                 {moreNavigation.map((item, index) => (

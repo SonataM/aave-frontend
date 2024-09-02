@@ -24,7 +24,7 @@ const FOOTER_ICONS = [
   {
     href: 'https://hey.xyz/u/aave',
     icon: <LensLogoIcon />,
-    title: 'Aave',
+    title: 'Aqualoan',
   },
   {
     href: 'https://twitter.com/aave',

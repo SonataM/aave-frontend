@@ -16,7 +16,7 @@ export function MainLayout({ children }: { children: ReactNode }) {
       <TopBarNotify
         learnMoreLink="/markets/?marketName=proto_lido_v3"
         buttonText="View Market"
-        notifyText="Aave Governance has deployed a new Lido market on Ethereum V3"
+        notifyText="Aqualoan Governance has deployed a new Lido market on Ethereum V3"
         bannerVersion={APP_BANNER_VERSION}
         icon={'/icons/tokens/ldo.svg'}
       />

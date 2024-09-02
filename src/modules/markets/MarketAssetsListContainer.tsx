@@ -127,7 +127,7 @@ export const MarketAssetsListContainer = () => {
           {showFrozenMarketsToggle && (
             <Warning severity="info">
               <Trans>
-                These assets are temporarily frozen or paused by Aave community decisions, meaning
+                These assets are temporarily frozen or paused by Aqualoan community decisions, meaning
                 that further supply / borrow, or rate swap of these assets are unavailable.
                 Withdrawals and debt repayments are allowed. Follow the{' '}
                 <Link
@@ -140,7 +140,7 @@ export const MarketAssetsListContainer = () => {
                   href="https://governance.aave.com"
                   underline="always"
                 >
-                  Aave governance forum
+                  Aqualoan governance forum
                 </Link>{' '}
                 for further updates.
               </Trans>
